@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 500px;
+    border: grey solid 2px;
+}
+
+#bluebar {
+    width: inherit;
+    background-color: skyblue;
+    height: 60px;
+    /* position: absolute; */
+}
+
+#profile-content {
+    margin: 20px;
+}
+
+#location {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#bio {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#edit-profile {
+    color: blue;
+}
+
+#location {
+    display: flex;
+}
+
+#edit-profile {
+    display: flex;
+}
+
+#pfp {
+    height: 100px;
+    margin-top: -50px;
+}
+
+#mapicon {
+    height: 20px;
+    padding-right: 5px;
+}
+
+#gear {
+    height: 15px;
+    padding-right: 5px;
+}

@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 
+#page {
+    width: 1000px;
+    margin: 0 auto;
+} */
+
+/* Navbar */
+#navbar {
+    background-color: black;
+    color: white;
+    /* height: 40px; */
+    /* padding: 15px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    padding: 15px;
+}
+
+#submenu {
+    display: flex;
+    /* width: 400px; */
+    align-items: center;
+}
+
+.navlist {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+li {
+    padding-left: 10px;
+}
+
+#signout {
+    background-color: #17a2b8;
+    padding: 10px;
+}
+/* END NAVBAR */
+
+/* BEGIN CONTENT */
+#content {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+/* Column Sizes */
+.leftcolumn {
+    width: 670px;
+}
+
+.rightcolumn {
+    width: 330px;
+}
+
+/* User Profile Card */
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    /* width: 500px; */
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+/* END PROFILE CARD */
+/* Content Cards */
+
+.subcard {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    /* width: 500px; */
+}
+.subcard-top {
+    background-color: #061640;
+    height: 40px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    /* margin-bottom: 70px; */
+    /* width: 500px; */
+}
+
+.subcard-body {
+    padding: 10px 0 0 20px;
+    /* padding-left: 20px; */
+    
+}
+
+#subtitle {
+    color: grey;
+}
+/* Right Column Cards */
+
+.subheading {
+    display: flex;
+    color: white;
+}
+#button1 {
+    border: grey;
+    background-color: grey;
+    width: 30px;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    font-size: 15pt;
+    margin-right: 5px;
+}
+
+#button2 {
+    border: grey;
+    background-color: grey;
+    width: 65px;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    font-size: 15pt;
+    margin-right: 20px;
+}
+
+.requests {
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.connectionsicon {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.user1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acceptdecline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.usertag {
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+.user2 {
+    display: flex;
+    padding-left: 22px;
+    margin: 5px;
+}
+
+#viewmore {
+    border-top: 2px solid #999;
+    height: 40px;
+    /* width: 100%; */
+}
+
+#viewtext {
+    margin: 20px 20px 20px 22px;
+}
